@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*font-family: 'Inter', sans-serif;*/
+
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --font-padrao: 'Inter', sans-serif;
+}
+
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-padrao);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--cor-de-fundo);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100vh ;
+}
+
+.principal_container {
+    width: 80%;
+    padding: 10% 0 0 8%;
+}
+
+.titulo_principal {
+    font-size: 1.9em;
+    color: var(--branco-principal);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.combo_img {
+    display: block;
+    width: 70%;
+    margin: 0 auto 50px auto;
+}
+
+.assinatura {
+    width: 95%;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.assinatura:hover {
+    cursor: pointer;
+}
+
+.assinatura_12x {
+    background-color: #167bf7;
+    color: var(--branco-principal);  
+}
+
+.assinatura_alura {
+    border: 1px solid var(--branco-principal);
+    color: var(--branco-principal);
+}
+
+.paragrafo_principal {
+    color: var(--cinza-secundario);
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.beneficios {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 55vw 55vw 55vw;
+}
+
+.img_beneficios_plataformas {
+    width: 75%;
+    align-self: center;
+    justify-self: center;
+    margin-left: 55px;
+}
+
+
+.beneficios_conteudo_plataformas {
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    margin-right: 55px;
+}
+
+.titulo_generico {
+    color: var(--branco-principal);
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.paragrafo_generico {
+    color: var(--cinza-secundario);
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+.beneficios_conteudo_linguas {
+    width: 75%;
+    align-self: center;
+    justify-self: center;
+    margin-left: 70px;
+}
+
+.img_beneficios_linguas {
+    width: 70%;
+    align-self: center;
+    justify-self: center;
+    margin-right: 100px;
+}
+
+.butao_linguas {
+    width: 30%;
+    height: 60px;
+    background-color: var(--botao-azul);
+    padding: 10px;
+    color: var(--branco-principal);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.butao_linguas:hover {
+    cursor: pointer;
+}
+
+.img_beneficios_notebook {
+    width: 70%;
+    align-self: center;
+    justify-self: center;
+    margin-left: 100px;
+}
+
+.beneficios_conteudo_notebook {
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    margin-right: 100px;
+}
+
+.dispositivos_disponiveis {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.dispositivos_disponiveis_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 60px;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 1150px;
+}
+
+.titulo_dispositivos {
+    color: var(--branco-principal);
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: 30px ;
+}
+
+footer {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.footer_conteudo_container {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.footer_conteudo_container a {
+    text-decoration: none;
+    color: var(--cinza-secundario);
+    font-size: 1em;
+    margin: 0 3px;
+}
+
+.paragrafo_footer {
+    color: #707070;
+    font-size: 0.9em;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 1100px;
+}

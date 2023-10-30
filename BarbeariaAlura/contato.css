@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+header {
+    background-color: rgb(190, 190, 190);
+    margin-bottom: 30px;
+}
+
+.header {
+    max-width: 940px;
+    background-color: rgb(190, 190, 190);
+    margin: auto;
+    position: relative;
+    padding: 10px 0;
+}
+
+nav {
+    position: absolute;
+    top: 115.5px;
+    right: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #C78C19;
+}
+
+main {
+    max-width: 940px;
+    margin: 40px auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.inputepadrao {
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+textarea, select, .inputepadrao {
+    border: 1px solid black;
+}
+
+
+
+.checkbox {
+    margin: 20px 0;
+}
+
+select {
+    margin-bottom: 20px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: #fd8904;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: rgb(248, 0, 0);
+    color: black;
+    transform: scale(1.1);
+}
+
+.table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: rgb(109, 108, 108);
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+}
+
+.footer {
+    padding: 40px 0 ;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        text-align: center;
+    }
+   
+    nav {
+        position: static;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav li {
+        margin: 5px
+    }
+
+    .inputepadrao {
+        width: 86%;
+    }
+
+    .enviar {
+        font-size: 0.8em;
+    }
+
+}

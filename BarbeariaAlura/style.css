@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to top, rgb(100, 100, 100), rgb(141, 141, 141), rgb(189, 189, 189), rgb(219, 219, 219),  white, white, white, white);
+}
+
+.principal{
+    padding: 20px;
+}
+
+.banner{
+    width: 100%;
+}
+
+main {
+    max-width: 940px;
+    margin: auto;
+}
+
+.utencilios {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.titulo_principal {
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+}
+
+.principal_p {
+    margin: 16px 0;
+    font-size: 1.2em;
+}
+
+p {
+    text-align: justify;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+p em strong{
+    color: rgb(202, 60, 60);
+}
+
+.mapa {
+    padding: 15px;
+}
+
+.mapa p {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.beneficios {
+    max-width: 640px;
+    margin: 50px auto;
+}
+
+.lista_home {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+#beneficiosImagem {
+    width: 60%;
+}
+
+.itens{
+    font-style: italic;
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "✰";
+}
+
+.itens::after {
+    content: ".";
+}
+
+
+
+@media screen and (max-width: 600px) {
+    h1{
+        text-align: center;
+    }
+
+    .titulo_principal {
+        font-size: 2.5em;
+    }
+
+    .principal {
+        line-height: 2.3em;
+    }
+
+    .mapa{
+        width: 100%;
+        padding: 0;
+    }
+
+    .lista_home {
+        display: block;
+        width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    #beneficiosImagem {
+        width: 100%;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.418);
+    }
+}
+

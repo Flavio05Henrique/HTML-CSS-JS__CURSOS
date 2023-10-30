@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url(header.css);
+@import url(banner.css);
+@import url(carrossel.css);
+@import url(cartao.css);
+@import url(topicosRecentes.css);
+@import url(footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco-padrao: #FFFFFF;
+    --cor-font-1: #002f52;
+    --cor-font-2: #EB9B00;
+    --font-family-padrao: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.centraliza_conteudo {
+    max-width: 90%;
+    margin: 80px auto;
+}
